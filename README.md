@@ -1,0 +1,3 @@
+# Scala Type Inference and Null Issue
+
+This example demonstrates a common issue in Scala related to type inference and the use of null with generic type parameters.  The `MyClass` class attempts to provide a default constructor that initializes the generic type `T` to null. However, this approach can lead to runtime errors depending on how `MyClass` is later used.  The solution shows how to refactor the class to avoid these potential problems. 
